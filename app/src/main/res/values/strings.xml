@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Person_name">Ahmed hassan</string>
+    <string name="personJop">Engineer</string>
+    <string name="reviewsNumber">(150 Reviews)</string>
+    <string name="location">UK</string>
+    <string name="Time">3 hr</string>
+    <string name="country">Russian</string>
+    <string name="History">5 Days ago</string>
+    <string name="_4_5">4.5</string></resources>
