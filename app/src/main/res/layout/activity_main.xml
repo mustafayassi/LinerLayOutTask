@@ -19,8 +19,8 @@
         <ImageView
             android:layout_width="93dp"
             android:layout_height="93dp"
-            android:src="@drawable/image"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:src="@drawable/image" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                 android:text="@string/personJop"
                 android:textColor="@color/jopAndCountryNameColor"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
                 android:text="@string/country"
                 android:textColor="@color/jopAndCountryNameColor"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
