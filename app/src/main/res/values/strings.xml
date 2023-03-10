@@ -15,4 +15,6 @@
     <string name="Time">3 hr</string>
     <string name="country">Russian</string>
     <string name="History">5 Days ago</string>
-    <string name="_4_5">4.5</string></resources>
+    <string name="_4_5">4.5</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BackgroundColor"
@@ -11,14 +12,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@color/cardColor"
+        android:background="@drawable/card_style"
         android:orientation="horizontal"
         android:padding="12dp">
 
         <ImageView
             android:layout_width="93dp"
             android:layout_height="93dp"
-            android:src="@drawable/image" />
+            android:src="@drawable/image"
+            android:contentDescription="@string/todo" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -31,44 +33,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:fontFamily=""
+                android:fontFamily="@font/dm_sans"
                 android:text="@string/Person_name"
                 android:textColor="@color/textBlackColor"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:fontFamily=""
+                android:fontFamily="@font/dm_sans"
                 android:text="@string/personJop"
                 android:textColor="@color/jopAndCountryNameColor"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textStyle="bold"/>
 
-
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:layout_marginRight="4dp"
-                    android:src="@drawable/baseline_location_on_24" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/dm_sans"
-                    android:text="@string/location"
-                    android:textColor="@color/locationColor"
-                    android:textSize="12sp" />
-
-
-            </LinearLayout>
+                android:fontFamily="@font/dm_sans"
+                android:text="@string/location"
+                android:textColor="@color/locationColor"
+                android:textSize="12sp"
+                app:drawableLeftCompat="@drawable/baseline_location_on_24" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -90,14 +78,10 @@
                     android:fontFamily="@font/dm_sans"
                     android:text="@string/_4_5"
                     android:textColor="@color/textBlackColor"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:drawableRightCompat="@drawable/baseline_star_24" />
 
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:src="@drawable/baseline_star_24" />
 
             </LinearLayout>
         </LinearLayout>
@@ -127,7 +111,8 @@
                 android:fontFamily="@font/dm_sans"
                 android:text="@string/country"
                 android:textColor="@color/jopAndCountryNameColor"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
